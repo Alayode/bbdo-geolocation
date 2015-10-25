@@ -1,0 +1,22 @@
+{
+  "name": "bbdo-geolocation",
+  "version": "1.0.0",
+  "description": "a simple application to demonstrate the complexitiy of deviceOrientation Event",
+  "main": "server.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alayode/bbdo-geolocation.git"
+  },
+  "author": "Chris kayode Alayode Samuel Jr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Alayode/bbdo-geolocation/issues"
+  },
+  "homepage": "https://github.com/Alayode/bbdo-geolocation#readme"
+}

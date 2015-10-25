@@ -20,7 +20,7 @@ sub page vies that we show or hide from the user, as appropriate.
 
 // a controller to provide context for the template.
 //
-angular.module('Bbdo', ['ngRoute'])
+angular.module('BBDO', ['ngRoute'])
   .config(function ($routeProvider, $locationProvider) {
     $locationProvider.html5Mode(true);
 
