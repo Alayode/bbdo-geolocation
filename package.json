@@ -3,7 +3,15 @@
   "version": "1.0.0",
   "description": "a simple application to demonstrate the complexitiy of deviceOrientation Event",
   "main": "server.js",
-  "dependencies": {},
+  "dependencies": {
+    "socket.io": "latest",
+"express": "latest",
+"body-parser": "latest",
+"cookie-parser": "latest",
+"morgan": "latest",
+"path": "latest",
+"http": "latest"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
