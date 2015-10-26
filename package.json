@@ -10,7 +10,8 @@
 "cookie-parser": "latest",
 "morgan": "latest",
 "path": "latest",
-"http": "latest"
+"http": "latest",
+"node-static":"latest"
   },
   "devDependencies": {},
   "scripts": {
