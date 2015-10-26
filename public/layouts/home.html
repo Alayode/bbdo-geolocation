@@ -5,7 +5,13 @@
 	  </header>
 
 	  <div class="app">
+			<script>
+L.mapbox.accessToken = 'pk.eyJ1IjoiYWxheW9kZSIsImEiOiJjaWc3bHMwc3gxNXR0dHFramdobzM3ODkyIn0.tOHTNXkL4X-lNkU9tCyVXA';
+var map = L.mapbox.map('map', 'mapbox.streets')
+    .setView([40, -74.50], 9);
+</script>
 	  	<div id="infobox" class="infobox"></div>
+			<!-- <div ng-controller="GeoMapCtrl as app" geo-map="" message="GPS!"></div> -->
 	  	<div id="map">To get this app to work you need to share your geolocation.</div>
 	  </div>
 	</div>
